@@ -1,0 +1,34 @@
+{
+    "name": "math-functions",
+    "version": "1.0.6",
+    "description": "Set of simple math utilities.",
+    "main": "dist/index.js",
+    "scripts": {
+      "test": "tape -r babel-register test/**/*.js | tap-spec",
+      "prepublish": "npm run build",
+      "build": "babel ./src/index.js --out-file dist/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ahmerhh/math-functions.git"
+    },
+    "keywords": [
+      "math",
+      "functions",
+      "utils"
+    ],
+    "author": "ahmerhh <ahmerhabibb@proton.me>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ahmerhh/math-functions/issues"
+    },
+    "homepage": "https://github.com/ahmerhh/math-functions#readme",
+    "devDependencies": {
+      "babel-cli": "^6.4.0",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-register": "^6.4.3",
+      "is-integer": "^1.0.6",
+      "tap-spec": "^4.1.1",
+      "tape": "^4.4.0"
+    }
+  }

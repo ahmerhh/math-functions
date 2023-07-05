@@ -1,3 +1,6 @@
-nimcache/
-nimblecache/
-htmldocs/
+.DS_Store
+.idea
+*.log
+*~
+node_modules
+/dist
